@@ -1,16 +1,7 @@
-# Initial REST API Architecture
+# Web API Architecture
 
-This is the old version. New version here: <a href="https://github.com/Gabriel-H-Silva/MongoAPITemplateAndTests"> new Version</a>
+This project serves as a template to facilitate the development of new Web API projects with MongoDB communication features. It provides a basic framework to perform CRUD operations by default and also includes a project for testing with XUnix TDD.
 
-This project serves as a template for establishing a REST API with MongoDB communication capabilities. It provides a basic structure to perform CRUD operations, with the following components:
-
-Controller: Manages data input and output.
-Business/Interface: Handles data processing.
-Repository/Interface: Manages database interactions, limited to simple methods for executing events as determined by the Business layer.
-Models:
-
-OM (Object Model): Represents the data model for the database.
-IM (Interface Model): Defines the data model interface.
 To get started, simply add the connection string for MongoDB and adjust the models as needed.
 
 Created by Gabriel Henrique de Oliveira Silva
