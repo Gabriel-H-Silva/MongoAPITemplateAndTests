@@ -1,5 +1,7 @@
 # Initial REST API Architecture
 
+This is the old version. New version here: <a href="https://github.com/Gabriel-H-Silva/MongoAPITemplateAndTests"> new Version</a>
+
 This project serves as a template for establishing a REST API with MongoDB communication capabilities. It provides a basic structure to perform CRUD operations, with the following components:
 
 Controller: Manages data input and output.
