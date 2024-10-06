@@ -107,10 +107,6 @@ namespace Business
             {
                 CrudModel crudOM = new CrudModel();
 
-                if (!string.IsNullOrEmpty(crudIM.Id)) crudOM.Id = crudIM.Id;
-                if (!string.IsNullOrEmpty(crudIM.Name)) crudOM.Name = crudIM.Name;
-
-
                 result.Res = await _repository.Save(crudOM);
                 result.Information = information.ResultInformation("CRUD", (int)EnumResultDM.EventCode.CodeSave, (int)EnumResultDM.StatusCode.StatusSuccess);
 

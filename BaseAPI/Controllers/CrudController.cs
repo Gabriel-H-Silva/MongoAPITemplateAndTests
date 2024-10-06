@@ -6,19 +6,19 @@ using Model.Generic;
 
 namespace Controllers
 {
-    [ApiVersion("1")]
-    [ApiController]
-    [Route("api/[controller]/v{version:apiVersion}")]
     /*
      * @author Gabriel
      * 
      * 
      */
-    public class CRUDController : ControllerBase
+    [ApiVersion("1")]
+    [ApiController]
+    [Route("api/[controller]/v{version:apiVersion}")]
+    public class CrudController : ControllerBase
     {
         private ICrudBusiness _business;
-
-        public CRUDController(ICrudBusiness business)
+        
+        public CrudController(ICrudBusiness business)
         {
             _business = business;
         }
@@ -60,4 +60,5 @@ namespace Controllers
         }
 
     }
+
 }

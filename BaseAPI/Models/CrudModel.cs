@@ -32,6 +32,7 @@ namespace Models.CrudModel
         [JsonPropertyName("createdDate")]
         public string CreatedDate { get; set; }
 
+
         public CrudModel(string name, string age, string gender, string email, string createdDate)
         {
             Name = name;
@@ -40,5 +41,7 @@ namespace Models.CrudModel
             Email = email;
             CreatedDate = createdDate;
         }
+
+        public CrudModel(){}
     }
 }
