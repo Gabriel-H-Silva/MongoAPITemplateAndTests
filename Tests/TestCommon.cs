@@ -22,13 +22,13 @@ namespace Tests
 
         public static ICrudBusiness GetBusiness()
         {
-            return new CrudBusiness(TestCommon.GetRepository());
+            return new CrudBusiness(GetRepository());
 
         }
 
         public static CrudController GetCrudController()
         {
-            return new CrudController(TestCommon.GetBusiness());
+            return new CrudController(GetBusiness());
 
         }
     }
